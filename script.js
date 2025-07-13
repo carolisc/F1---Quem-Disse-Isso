@@ -1,20 +1,5 @@
 const quotes = [
     {
-      quote: '"No, Mikey! No! This is so not right!"',
-      correct: 'Toto Wolff',
-      options: ['Sebastian Vettel', 'Toto Wolff', 'Lewis Hamilton']
-    },
-    {
-      quote: '"Honestly, what are we doing here?"',
-      correct: 'Sebastian Vettel',
-      options: ['Max Verstappen', 'Sebastian Vettel', 'Fernando Alonso']
-    },
-    {
-      quote: '"I am stupid. I am stupid."',
-      correct: 'Charles Leclerc',
-      options: ['Carlos Sainz', 'Charles Leclerc', 'Daniel Ricciardo']
-    },
-    {
         quote: '"No, Mikey! No! This is so not right!"',
         correct: 'Toto Wolff',
         options: ['Sebastian Vettel', 'Toto Wolff', 'Lewis Hamilton']
@@ -83,16 +68,6 @@ const quotes = [
         quote: '"More power, baby!"',
         correct: 'Daniel Ricciardo',
         options: ['Carlos Sainz', 'Lando Norris', 'Daniel Ricciardo']
-      },
-      {
-        quote: '"Box, box, box!"',
-        correct: 'Engineer (genérico)',
-        options: ['Engineer', 'Lewis Hamilton', 'Toto Wolff']
-      },
-      {
-        quote: '"It’s lights out and away we go!"',
-        correct: 'David Croft',
-        options: ['David Croft', 'Martin Brundle', 'James Hunt']
       },
       {
         quote: '"For what?! He turned into me!"',
