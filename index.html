@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quem Disse Isso?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Quem disse isso?</h1>
+    <p id="quote">"No, Mikey! No!"</p>
+    <div class="options">
+      <button onclick="checkAnswer(this)">Sebastian Vettel</button>
+      <button onclick="checkAnswer(this)">Toto Wolff</button>
+      <button onclick="checkAnswer(this)">Max Verstappen</button>
+    </div>
+    <p id="result"></p>
+    <button id="nextBtn" onclick="loadNext()">Próxima</button>
+    <p class="score">Acertos: <span id="score">0</span></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
